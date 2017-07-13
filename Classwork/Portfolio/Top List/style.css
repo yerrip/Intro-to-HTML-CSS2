@@ -1,0 +1,33 @@
+
+body {
+    font-family: 'Lora', serif;
+    background-color: #eee;
+    line-height: 1.2;
+}
+
+
+h1 {
+    font-size: 72px;
+    padding: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.app .screenshot img {
+    width: 100%;
+}
+
+.app {
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+        margin-bottom: 100px
+}
+
+.app .description {
+    max-width: 700px;
+    margin-right: 20%;
+        margin-top: 50px;
+}
